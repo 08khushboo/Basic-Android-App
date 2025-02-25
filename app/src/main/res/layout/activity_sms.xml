@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SMS">
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="412dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:hint="enter your message"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <EditText
+        android:id="@+id/editTextText9"
+        android:layout_width="378dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="242dp"
+        android:ems="10"
+        android:hint="receiver's no."
+        android:inputType="text"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <Button
+        android:id="@+id/button50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginBottom="264dp"
+        android:text="send"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="147dp" />
+
+    <Button
+        android:id="@+id/button51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="69dp"
+        android:text="back"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="642dp" />
+</RelativeLayout>

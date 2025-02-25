@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "927616791908",
+    "project_id": "megatask-99791",
+    "storage_bucket": "megatask-99791.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927616791908:android:e16eeef335efd75eed7671",
+        "android_client_info": {
+          "package_name": "com.example.megatask"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANorVq0WTeU8McNd0KLfvGJR-R2KjT62I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Call">
+
+    <EditText
+        android:id="@+id/editTextText7"
+        android:layout_width="396dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="122dp"
+        android:ems="10"
+        android:hint="enter mobile no."
+        android:inputType="text"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <Button
+        android:id="@+id/button44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="324dp"
+        android:text="call"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <Button
+        android:id="@+id/button45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="86dp"
+        android:text="back"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="646dp" />
+
+</RelativeLayout>
